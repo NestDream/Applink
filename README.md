@@ -5,7 +5,7 @@ App-Link is a Mahjong game based on C++ and Qt framework.
 
 1. Basic Mahjong game：Game map is generated randomly. When the player clickes on two same blocks and the bend between them are less than or equal to 3, both of the blocks will disappear. The player wins when all blocks disappear. The system will record how long the player has spent.  
 
-2. 游戏性方面：游戏有简单和困难两个模式；用户有三次获取提示和两次主动更换地图的机会；简单模式下用户获取提示的次数不限；用户获胜最高的五名会进入排行榜中。  
+2. Gameplay: The game has two modes, easy mode and hard mode. The player can get up to 3 hints and 2 chances to change the map. In easy mode, hints are unlimited. The top five winners will enter the rankings.
 
 3. 交互性方面：用户鼠标点击连连看图标时会有点击音效；图标相消时有相消音效；图标具有三种状态，分别是静息状态、鼠标停留状态和鼠标点击状态，每个三种的状态对应着三种图标形态，有助于用户分辨；提示按钮和地图更换按钮在次数用尽后会变成灰色；  
 
