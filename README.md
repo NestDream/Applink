@@ -6,13 +6,14 @@ App-Link has great user interface design and excellent interaction.
 
 ### Function
 
-1. Basic Mahjong game：Game map is generated randomly. When the player clickes on two same blocks and the bend between them are less than or equal to 3, both of the blocks will disappear. The player wins when all blocks disappear. The system will record how long the player has spent.  
+1. Basic Mahjong game: Game map is generated randomly. When the player clickes on two same blocks and the bend between them are less than or equal to 3, both of the blocks will disappear. The player wins when all blocks disappear. The system will record how long the player has spent.  
 
 2. Gameplay: The game has two modes, easy mode and hard mode. The player can get up to 3 hints and 2 chances to change the map. In easy mode, hints are unlimited. The top five winners will enter the rankings.
 
-3. Interaction：用户鼠标点击连连看图标时会有点击音效；图标相消时有相消音效；图标具有三种状态，分别是静息状态、鼠标停留状态和鼠标点击状态，每个三种的状态对应着三种图标形态，有助于用户分辨；提示按钮和地图更换按钮在次数用尽后会变成灰色；  
+3. Interaction: 用户鼠标点击连连看图标时会有点击音效；图标相消时有相消音效；图标具有三种状态，分别是静息状态、鼠标停留状态和鼠标点击状态，每个三种的状态对应着三种图标形态，有助于用户分辨；提示按钮和地图更换按钮在次数用尽后会变成灰色；  
 
-4. Algorithm：使用深度优先搜索算法对图片匹配函数进行优化，提高了游戏运行效率。  
+4. Algorithm: Utilize depth-first search algorithm to optimize the image matching function, which improves the efficiency of the  programme.
+  
 
 ### Program Structure
 
