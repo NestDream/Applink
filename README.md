@@ -1,6 +1,9 @@
 # Applink
 App-Link is a Mahjong game based on C++ and Qt framework. 
 
+### Feature
+App-Link has great user interface design and excellent interaction.
+
 ### Function
 
 1. Basic Mahjong game：Game map is generated randomly. When the player clickes on two same blocks and the bend between them are less than or equal to 3, both of the blocks will disappear. The player wins when all blocks disappear. The system will record how long the player has spent.  
