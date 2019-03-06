@@ -10,7 +10,7 @@ App-Link has great user interface design and excellent interaction.
 
 2. Gameplay: The game has two modes, easy mode and hard mode. The player can get up to 3 hints and 2 chances to change the map. In easy mode, hints are unlimited. The top five winners will enter the rankings.
 
-3. Interaction: 用户鼠标点击连连看图标时会有点击音效；图标相消时有相消音效；图标具有三种状态，分别是静息状态、鼠标停留状态和鼠标点击状态，每个三种的状态对应着三种图标形态，有助于用户分辨；提示按钮和地图更换按钮在次数用尽后会变成灰色；  
+3. Interaction: The game has sound effect for mouse clicking；图标相消时有相消音效；图标具有三种状态，分别是静息状态、鼠标停留状态和鼠标点击状态，每个三种的状态对应着三种图标形态，有助于用户分辨；提示按钮和地图更换按钮在次数用尽后会变成灰色；  
 
 4. Algorithm: Utilize depth-first search algorithm to optimize the image matching function, which improves the efficiency of the  programme.
   
