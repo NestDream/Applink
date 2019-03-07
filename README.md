@@ -25,4 +25,4 @@ App-Link has great user interface design and excellent interaction.
 
 - start.h和start.cpp用于游戏启动和用户名的输入  
 
-- user.h是保存用户信息的类，其中可以得到用户的名字和游戏时间  
+- user.h defines classes to store user information like name and gaming time 
