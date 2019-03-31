@@ -19,10 +19,10 @@ App-Link has great user interface design and excellent interaction.
 
 - appendices.h and appendices.cpp are used to record time(Class Time), set and play background music(Class MusicPLayer), set sound effect(Class MusicPlayer), and display ranking(Class Rank)  
 
-- applink.h和applink.cpp用于实现本程序的主体内容：登陆界面和游戏界面的实现。连连看游戏可以看做图的连通问题。本次实验在判断两个图片能否满足游戏条件时使用了深度优先搜索提高效率。原理是用一个二维数组存储游戏地图，用DFS判断两个点之间能否消去。若两个相同点之间能通过三次以下的垂直弯折连通的话即可以消去，如果不存在这样的点对，程序会自动更新地图。最外层会设置一圈虚节点以助于判断。用户可以获得三次获得提示的机会和两次主动更换地图的机会。  
+- Applink. h and applink. CPP are used to realize the main content of this game: the logging in interface and the game interface. Mahjong game can be regarded as the connectivity problem of graphs.This game uses depth-first search to improve the efficiency when judging whether two images can meet the game conditions.The idea is to use a two-dimensional array to store the game map and DFS to determine whether two points can be eliminated. If the two points can be connected by vertical bending within three times, they can be eliminated. If no such point pair exists, the program will automatically update the map.The outermost layer sets a circle of virtual nodes to aid judgment. Players get three prompts and two map changing chances. 
 
-- button.h和button.cpp用于为连连看图标提供多种状态（静息状态、鼠标停留状态和鼠标点击状态）  
+- button.h and button.cpp are used to provide various states (resting state, hover state and mouse click state) for the Mahjong icon.  
 
-- start.h和start.cpp用于游戏启动和用户名的输入  
+- start.h and start.cpp are used for game startup and user name input.
 
-- user.h defines classes to store user information like name and gaming time 
+- user.h defines classes to store user information like name and gaming time. 
