@@ -17,7 +17,7 @@ App-Link has great user interface design and excellent interaction.
 
 ### Program Structure
 
-- appendices.h和appendices.cpp用于实现记录时间（Time类）、背景音乐（MusicPLayer类）、点击音效（MusicPlayer类）以及排行榜（Rank类）展示功能  
+- appendices.h and appendices.cpp are used to record time(Class Time), set and play background music(Class MusicPLayer), set sound effect(Class MusicPlayer), and display ranking(Class Rank)  
 
 - applink.h和applink.cpp用于实现本程序的主体内容：登陆界面和游戏界面的实现。连连看游戏可以看做图的连通问题。本次实验在判断两个图片能否满足游戏条件时使用了深度优先搜索提高效率。原理是用一个二维数组存储游戏地图，用DFS判断两个点之间能否消去。若两个相同点之间能通过三次以下的垂直弯折连通的话即可以消去，如果不存在这样的点对，程序会自动更新地图。最外层会设置一圈虚节点以助于判断。用户可以获得三次获得提示的机会和两次主动更换地图的机会。  
 
